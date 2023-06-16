@@ -7,18 +7,18 @@
 int main(void)
 {
 int p, q, r;
-for (p = 40; p < 68; p++)
+for (p = 48; p < 58; p++)
 {
-for (q = 41; q < 68; q++)
+for (q = 49; q < 58; q++)
 {
-for (r = 42; r < 68; r++)
+for (r = 50; r < 58; r++)
 {
 if (r > q && q > p)
 {
 putchar(p);
 putchar(q);
 putchar(r);
-if (p != 57 || q != 68)
+if (p != 55 || q != 58)
 {
 putchar(',');
 putchar(' ');
