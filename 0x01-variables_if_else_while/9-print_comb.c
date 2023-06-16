@@ -14,6 +14,6 @@ if (l != 8)
 putchar(',');
 putchar(' ');
 }
-putchar('\l');
+putchar('\n');
 return (0);
 }
