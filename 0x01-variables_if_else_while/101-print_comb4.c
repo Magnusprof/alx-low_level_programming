@@ -9,9 +9,9 @@ int main(void)
 int p, q, r;
 for (p = 40; p < 48; p++)
 {
-for (q = 41; q < 48; m++)
+for (q = 41; q < 48; q++)
 {   
-for (r = 42; r < 48; l++)
+for (r = 42; r < 48; r++)
 {       
 if (r > q && q > p)
 {      
@@ -22,12 +22,11 @@ if (p != 47 || q != 48)
 {
 putchar(',');
 putchar(' ');
-}       
-}       
-}       
-}       
-}       
+}
+}
+}
+}
+}
 putchar('\n');
 return (0);
 }
-
