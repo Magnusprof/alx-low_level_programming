@@ -3,8 +3,7 @@
 /**
  * _puts - Write a function that prints a string,
  * followed by a new line, to stdout
- * @str: pointer to the string
- * Return: string and new line
+ * @str: string to print
  */
 
 void _puts(char *str)
