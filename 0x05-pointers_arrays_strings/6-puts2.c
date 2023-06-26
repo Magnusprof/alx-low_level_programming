@@ -19,7 +19,7 @@ void puts2(char *str)
 
 	for (p = 0; p < q; p +=2)
 	{
-	_putchar(str[p]);
+_putchar(str[p]);
 	}
 	_putchar('\n');
 }
