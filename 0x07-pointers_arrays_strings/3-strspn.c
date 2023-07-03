@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (k = 0; accept[k]; k++)
 		{
-			if (*S == accept[k])
+			if (*s == accept[k])
 			{
 				bytes++;
 				break;
